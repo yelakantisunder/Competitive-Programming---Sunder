@@ -3,7 +3,12 @@
 # the smallest integer number of cartons required to hold 
 # that many eggs, where a carton may hold up to 12 eggs
 
-
+import math
 def fun_eggcartons(eggs):
-	# your code goes here
-	return 1
+	# # your code goes here
+	# if(eggs % 12 == 0):
+	# 	return eggs // 12
+	# else:
+	# 	return int(eggs // 12 + 1)
+	return math.ceil(eggs / 12)
+ 
