@@ -23,6 +23,17 @@
 
 def removeRowAndCol(L, row, col):
     # Your code goes here...
-    pass
+    if (row == 0 or col == 0):
+        return "It is not possible to remove row and column"
+    else:
+        for i in L:
+            del i[col]
+        L.pop(row)
+        print (L)
+    # pass
+    
+removeRowAndCol([ [ 2, 3, 4, 5], 
+                [ 8, 7, 6, 5], 
+                [ 0, 1, 2, 3] ], 1, 2)
 
 # Write your own test cases.
