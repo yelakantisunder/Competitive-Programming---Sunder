@@ -3,9 +3,11 @@
 # For example, alternatingSum([5,3,8,4]) returns 6 (that is, 5-3+8-4). If the list is empty, return 0.
 
 
-
-
-def fun_alternatingsum(a): 
-	return 0
-
-
+def fun_alternatingsum(a):
+    altSum=0
+    for i in range(len(a)):
+        if i%2==0:  #i  takes index not a value 
+            altSum+=a[i]
+        else:
+            altSum-=a[i]
+    return altSum
