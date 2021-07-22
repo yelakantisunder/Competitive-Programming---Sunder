@@ -15,3 +15,4 @@ def hasconsecutivedigits(n):
 			flag = True
 		pre = bef
 	return flag
+print(hasconsecutivedigits(12210))
