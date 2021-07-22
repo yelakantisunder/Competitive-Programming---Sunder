@@ -6,12 +6,11 @@
 
 
 def fun_get_kth_digit(digit, k):
-<<<<<<< HEAD
-=======
+
 	# s = abs(digit)//(10**k)
 	# if(s==0):
 	# 	return 0
 	# else:
 	# 	return s%10
->>>>>>> bea882c58c2301486bcaa248c17ecea2e439a3ae
+
 	return (abs(digit)//(10**(k))%10)
