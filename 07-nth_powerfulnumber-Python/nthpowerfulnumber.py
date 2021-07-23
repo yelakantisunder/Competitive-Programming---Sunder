@@ -48,7 +48,7 @@ def powerfulnumber(x):
         return True
     
     else:
-        
+    
         count=0
         count2=0
         for i in range(2,int(x/2)+1):
