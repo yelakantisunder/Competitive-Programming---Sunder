@@ -83,4 +83,3 @@ def nth_happy_number(n):
         if(ishappynumber(guess)):
             found += 1
     return guess
-print(nth_happy_number(2))
