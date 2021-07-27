@@ -5,15 +5,6 @@
 
 
 
-
-
-def getSum(x):
-	sum=0
-	while(x!=0):
-		sum=sum+x%10
-		x=x//10
-	return sum
-
 def isPrime(x):
 	if x<2 :
 		return False
@@ -22,6 +13,12 @@ def isPrime(x):
 			return False
 	return True
 
+def getSum(x):
+	sum=0
+	while(x!=0):
+		sum=sum+x%10
+		x=x//10
+	return sum
 	
 
 def fun_nth_additive_prime(n):
