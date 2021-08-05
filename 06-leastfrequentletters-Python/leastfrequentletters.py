@@ -9,4 +9,13 @@
 
 def leastfrequentletters(s):
 	# Your code goes here
-	pass
+    freq = ""
+    lcase="abcdefghijklmnopqrstuvwxyz"
+    s = s.lower()
+    for i in lcase:
+        count = 0
+        if i in s:
+            count = s.count(i)
+        if(count==1):
+            freq = freq+i
+    return freq
